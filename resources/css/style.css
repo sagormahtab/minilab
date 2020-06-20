@@ -1,0 +1,149 @@
+/*============================*/
+/* BASIC SETUP */
+/*============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+/*============================*/
+/* REUSABLE COMPONENTS */
+/*============================*/
+.p-clr-prmy {
+    color: #717171;
+}
+
+/*Button*/
+.btn-prim {
+    background: linear-gradient(to right, #ffc371, #ff5f6d);
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+.btn-prim:hover {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.section-top-margin {
+    margin-top: 200px;
+}
+
+/*============================*/
+/* NAVBAR */
+/*============================*/
+.bg-transparent {
+    background: transparent;
+}
+
+header .navbar-nav {
+    font-weight: 500;
+}
+
+header .navbar-brand {
+    font-size: 35px;
+}
+
+header .nav-item {
+    font-size: 16px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-item {
+    padding-right: 10px;
+}
+
+header .navbar-light .navbar-nav .nav-item:last-child {
+    padding-right: 0;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 500;
+}
+
+.text-mute {
+    color: #8b8b8b;
+}
+
+/*============================*/
+/* BANNER */
+/*============================*/
+header {
+    background: url(../img/header-polygon.png) no-repeat, url(../img/header-right-bg.png) no-repeat;
+    background-position: 18% 34%, top right;
+    background-size: 6%, 50% 100%;
+}
+
+.banner h1 {
+    font-size: 70px;
+}
+
+.banner p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/*============================*/
+/* BANNER */
+/*============================*/
+.about-card {
+    padding: 0 30px;
+}
+
+.about-card-content {
+    padding: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    border-radius: 20px;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.about-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.about-card-img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.about-card .colored-card{
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: white;
+}
+.about-btn{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+}
+
+
+
+
+
