@@ -8,16 +8,18 @@
 
     <!-- vendors -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- resources -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Minilab</title>
 </head>
@@ -59,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-7 banner-text align-self-end">
                         <h1 class="text-capitalize"><span class="d-block" style="font-weight: 600">start</span> <span class="d-block" style="font-weight: 600">thinking</span> <span class="d-block text-mute" style="font-weight: 700">creative ideas</span></h1>
-                        <p class="p-clr-prmy">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="#" class="btn-prim my-3">See More</a>
                     </div>
                     <div class="col-md-5">
@@ -72,30 +74,30 @@
     <!--END HEADER SECTION-->
 
     <!--START ABOUT US SECTION-->
-    <section class="section-top-margin">
+    <section id="aboutus" class="section-top-margin section-bottom-padding">
         <div class="container">
-            <h2 class="font-weight-bold about-heading">We’re Creative Digital Agency
+            <h2 class="section-heading">We’re Creative Digital Agency
                 &amp; Marketing Expert</h2>
             <div class="row justify-content-between">
-                <div class="col-md-4 about-card">
-                    <div class="about-card-content">
-                        <img class="about-card-img" src="resources/img/light-icon.png" alt="idea">
-                        <h5 class="about-card-title">Startup Business</h5>
-                        <p class="p-clr-prmy">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                <div class="col-md-4 main-card">
+                    <div class="main-card-content">
+                        <img class="main-card-img" src="resources/img/light-icon.png" alt="idea">
+                        <h5 class="main-card-title">Startup Business</h5>
+                        <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and industry. </p>
                     </div>
                 </div>
-                <div class="col-md-4 about-card">
-                    <div class="about-card-content colored-card">
-                        <img class="about-card-img" src="resources/img/paint-icon.png" alt="idea">
-                        <h5 class="about-card-title">Creative Mind</h5>
+                <div class="col-md-4 main-card">
+                    <div class="main-card-content colored-card">
+                        <img class="main-card-img" src="resources/img/paint-icon.png" alt="idea">
+                        <h5 class="main-card-title">Creative Mind</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and industry. </p>
                     </div>
                 </div>
-                <div class="col-md-4 about-card">
-                    <div class="about-card-content">
-                        <img class="about-card-img" src="resources/img/circuit-brain-icon.png" alt="idea">
-                        <h5 class="about-card-title">Research &amp; Technology</h5>
-                        <p class="p-clr-prmy">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                <div class="col-md-4 main-card">
+                    <div class="main-card-content">
+                        <img class="main-card-img" src="resources/img/circuit-brain-icon.png" alt="idea">
+                        <h5 class="main-card-title">Research &amp; Technology</h5>
+                        <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and industry. </p>
                     </div>
                 </div>
             </div>
@@ -103,6 +105,134 @@
         </div>
     </section>
     <!--END ABOUT US SECTION-->
+
+
+    <!--START WORK SECTION-->
+    <section id="work-section" class="section-bottom-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="play-btn" src="resources/img/play-button.png" alt="play-button">
+                    <img src="resources/img/team-discussion.png" class="img-fluid" alt="team-discussion">
+                </div>
+                <div class="col-md-6">
+                    <div class="work-text">
+                        <h2 class="section-heading work-heading">let's see how we work</h2>
+                        <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                        <a href="#" class="btn-prim mt-3">Watch More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END WORK SECTION-->
+
+
+    <!--START CLIENT SECTION-->
+    <section id="client-section" class="section-bottom-padding">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="section-heading">Some awesome words by our clients</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-3 offset-md-2 client-text-wrapper">
+                    <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <a href="#" class="btn-prim mt-3">Watch More</a>
+                </div>
+                <div class="col-md-7">
+                    <div class="owl-carousel">
+                        <div class="work-card">
+                            <div class="main-card-content">
+                                <img class="main-card-img" src="resources/img/client-1.png" alt="idea">
+                                <h5 class="main-card-title client-title">James Richard</h5>
+                                <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="main-card-content">
+                                <img class="main-card-img" src="resources/img/client-2.png" alt="idea">
+                                <h5 class="main-card-title client-title">Rose Charles</h5>
+                                <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="main-card-content">
+                                <img class="main-card-img" src="resources/img/client-3.png" alt="idea">
+                                <h5 class="main-card-title client-title">Alex Perry</h5>
+                                <p class="p-clr-prim">Lorem Ipsum is simply dummy text of the printing and industry. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END CLIENT SECTION-->
+
+    <!--START CONTACT SECTION-->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-heading">update your marketing resources</h2>
+            <div class="form-row align-items-center">
+                <div class="col-auto mail-input-wrapper">
+                    <input class="mail-input form-control mr-3" type="text" placeholder="Enter Your Mail">
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="btn-prim btn-sign-in rounded-pill">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END CONTACT SECTION-->
+
+   
+    <!--START FOOTER SECTION-->
+       <footer>
+           <div class="container">
+               <h4 class="font-weight-bold text-uppercase text-center py-5"><span style="color: #172236">Mini</span><span style="color: #fff">Lab</span></h4>
+           <div class="row">
+               <div class="col-md-3">
+                   <h6>Features</h6>
+                   <ul>
+                       <li><a href="#">Live chat</a></li>
+                       <li><a href="#">Email Marketing</a></li>
+                       <li><a href="#">User Analytics</a></li>
+                       <li><a href="#">Marketing</a></li>
+                       <li><a href="#">Automation</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-3">
+                   <h6>resources</h6>
+                   <ul>
+                       <li><a href="#">Watch A Demo</a></li>
+                       <li><a href="#">docs</a></li>
+                       <li><a href="#">integrations &amp; API</a></li>
+                       <li><a href="#">iOS and android</a></li>
+                       <li><a href="#">apps</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-3">
+                   <h6>company</h6>
+                   <ul>
+                       <li><a href="#">about</a></li>
+                       <li><a href="#">customers</a></li>
+                       <li><a href="#">careers</a></li>
+                       <li><a href="#">contact us</a></li>
+                   </ul>
+               </div>
+               <div class="col-md-3">
+                  <h6>contact</h6>
+                   <p class="support-contact">support@domain.com</p>
+                   <div class="social-icon">
+                       <a href="#"><img class="fb-icon" src="resources/img/icon-fb.png" alt="facebook-icon"></a>
+                       <a href="#"><img src="resources/img/icon-ig.png" alt="instagram-icon"></a>
+                       <a href="#"><img src="resources/img/icon-ln.png" alt="linkedin-icon"></a>
+                   </div>
+               </div>
+           </div>
+           </div>
+       </footer> 
+    <!--END FOOTER SECTION-->
 
 
     <!-- HTML5 Shiv -->
@@ -121,5 +251,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--Owl Carousel-->
+    <script src="vendors/js/owl.carousel.min.js"></script>
+
+    <!--main js-->
+    <script src="resources/js/main.js"></script>
 
 </body></html>

@@ -15,7 +15,7 @@ body {
 /*============================*/
 /* REUSABLE COMPONENTS */
 /*============================*/
-.p-clr-prmy {
+.p-clr-prim {
     color: #717171;
 }
 
@@ -36,6 +36,52 @@ body {
 
 .section-top-margin {
     margin-top: 200px;
+}
+
+.section-bottom-padding{
+    padding-bottom: 200px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+
+/*Main Card*/
+.main-card {
+    padding: 0 30px;
+}
+
+.main-card-content {
+    padding: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
+    border-radius: 20px;
+}
+
+.main-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.main-card-img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.main-card .colored-card {
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: white;
 }
 
 /*============================*/
@@ -97,53 +143,191 @@ header {
 }
 
 /*============================*/
-/* BANNER */
+/* ABOUT US */
 /*============================*/
-.about-card {
-    padding: 0 30px;
-}
 
-.about-card-content {
-    padding: 25px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    -webkit-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
-    -moz-box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
-    box-shadow: 0px 0px 12px 5px rgba(224, 224, 224, 0.86);
-    border-radius: 20px;
+#aboutus{
+    background: url(../img/section-bg-left.png) no-repeat, url(../img/polygon-main.png) no-repeat;
+    background-size: 100px, 50px;
+    background-position: 0% 25%, 17% 90%;
 }
-
-.about-heading {
-    text-align: center;
-    font-size: 50px;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 70px;
+#aboutus h2::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 20%;
+    background: url(../img/polygon-main.png) no-repeat;
+    background-position: right top;
+    background-size: 50px;
 }
-
-.about-card-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 25px 0;
-}
-
-.about-card-img {
-    width: 50px;
-    height: 50px;
-    display: block;
-}
-
-.about-card .colored-card{
-    background: linear-gradient(to right, #ff5f6d, #ffc371);
-    color: white;
-}
-.about-btn{
+.about-btn {
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 70px;
 }
 
+/*============================*/
+/* WORK */
+/*============================*/
+#work-section{
+    background: url(../img/section-bg-right.png) no-repeat bottom right;
+    background-size: 70px;
+}
+.work-text::after{
+    content: "";
+    width: 40vw;
+    height: 200px;
+    position: absolute;
+    display: block;
+    background: url(../img/polygon-main.png) no-repeat;
+    background-position: right bottom;
+    background-size: 50px;
+}
+.work-heading {
+    width: 100%;
+    padding-right: 50px;
+    margin-bottom: 35px;
+    text-align: start;
+}
 
+.work-text {
+    padding: 0 30px;
+}
+
+.work-card{
+    padding: 3px 20px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+
+/*============================*/
+/* CLIENT */
+/*============================*/
+#client-section{
+    background: url(../img/section-bg-left.png) no-repeat bottom left;
+    background-size: 100px;
+}
+.client-text-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 175px;
+    left: -100px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    background: url(../img/polygon-main.png) no-repeat;
+    background-size: 50px;
+}
+.client-title {
+    background: -webkit-linear-gradient(#ff5f6d, #ffc371);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.owl-carousel .owl-item img{
+    width: 50px;
+}
+
+/*============================*/
+/* CONTACT */
+/*============================*/
+#contact{
+    padding-bottom: 200px;
+    background: url(../img/polygon-main.png) no-repeat, url(../img/section-bg-right.png) no-repeat;
+    background-position: 25% 70%, right;
+    background-size: 50px, 100px;
+}
+
+#contact .mail-input-wrapper::after{
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: -200px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    background: ;
+    background-size: 50px;
+}
+.mail-input{
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    -webkit-box-shadow: 0px 4px 8px 0px #ddd;
+    -mox-box-shadow: 0px 4px 8px 0px #ddd;
+    box-shadow: 0px 4px 8px 0px #ddd;
+}
+
+.mail-input::placeholder{
+    padding-left: 20px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ff5f6d 20%, #ffc371 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-sign-in{
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    display: inline-block;
+    padding: 10px 40px;
+}
+#contact .form-row{
+    width: 70%;
+    margin: auto;
+}
+
+/*============================*/
+/* FOOTER */
+/*============================*/
+footer{
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    padding-bottom: 35px;
+}
+footer h4{
+    margin: 0;
+}
+footer h6{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    color: #fff;
+    font-weight: 700;
+}
+footer ul li{
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+footer ul li a{
+    color: #fff;
+    font-weight: 300;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: floralwhite;
+}
+footer .support-contact{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.social-icon img{
+    width: 20px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.social-icon img:hover{
+    transform: rotate(360deg);
+}
+.social-icon .fb-icon{
+    width: 13px;
+}
 
 
 
