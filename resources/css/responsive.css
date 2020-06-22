@@ -42,4 +42,7 @@
     .banner h1::before{
         position: static;
     }
+    .mail-input{
+        width: 60vw;
+    }
 }

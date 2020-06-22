@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
@@ -18,7 +18,8 @@ body {
     position: relative;
 }
 
-p, a{
+p,
+a {
     font-size: 1.6rem;
 }
 
@@ -48,7 +49,7 @@ p, a{
     margin-bottom: 20rem;
 }
 
-.section-bottom-padding{
+.section-bottom-padding {
     padding-bottom: 20rem;
 }
 
@@ -97,21 +98,21 @@ p, a{
 /*============================*/
 /* NAVBAR */
 /*============================*/
-#main-nav{
+#main-nav {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
     padding-top: 4.5rem;
 }
+
 .navbar-fixed-top.scrolled {
-  background: linear-gradient(
-    to right,
-    #ff5f6d,
-    #ffc371
-  );
-  transition: background-color 200ms linear;
+    background: linear-gradient(to right,
+            #ff5f6d,
+            #ffc371);
+    transition: background-color 200ms linear;
 }
+
 .bg-transparent {
     background: transparent;
 }
@@ -153,7 +154,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
 /* BANNER */
 /*============================*/
 header {
-    background:url(../img/header-right-bg.png) no-repeat;
+    background: url(../img/header-right-bg.png) no-repeat;
     background-position: top right;
     background-size: 50% 100%;
 }
@@ -161,7 +162,8 @@ header {
 .banner h1 {
     font-size: 7rem;
 }
-.banner h1::before{
+
+.banner h1::before {
     content: "";
     width: 10rem;
     height: 8rem;
@@ -181,11 +183,12 @@ header {
 /* ABOUT US */
 /*============================*/
 
-#aboutus{
+#aboutus {
     background: url(../img/polygon-main.png) no-repeat, url(../img/section-bg-left.png) no-repeat, url(../img/polygon-main.png) no-repeat;
-    background-size: 5rem ,10rem, 5rem;
+    background-size: 5rem, 10rem, 5rem;
     background-position: 90% 10%, 0% 25%, 17% 90%;
 }
+
 .about-btn {
     margin-left: 50%;
     transform: translateX(-50%);
@@ -195,11 +198,12 @@ header {
 /*============================*/
 /* WORK */
 /*============================*/
-#work-section{
+#work-section {
     background: url(../img/section-bg-right.png) no-repeat bottom right;
     background-size: 7rem;
 }
-.work-text::after{
+
+.work-text::after {
     content: "";
     width: 40vw;
     height: 20rem;
@@ -209,6 +213,7 @@ header {
     background-position: right bottom;
     background-size: 5rem;
 }
+
 .work-heading {
     width: 100%;
     padding-right: 5rem;
@@ -220,7 +225,7 @@ header {
     padding: 0 3rem;
 }
 
-.work-card{
+.work-card {
     padding: .3rem 2rem;
 }
 
@@ -235,11 +240,12 @@ header {
 /*============================*/
 /* CLIENT */
 /*============================*/
-#client-section{
+#client-section {
     background: url(../img/section-bg-left.png) no-repeat bottom left;
     background-size: 10rem;
 }
-.client-text-wrapper::before{
+
+.client-text-wrapper::before {
     content: "";
     position: absolute;
     top: 17.5rem;
@@ -250,27 +256,28 @@ header {
     background: url(../img/polygon-main.png) no-repeat;
     background-size: 5rem;
 }
+
 .client-title {
     background: -webkit-linear-gradient(#ff5f6d, #ffc371);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.owl-carousel .owl-item img{
+.owl-carousel .owl-item img {
     width: 5rem;
 }
 
 /*============================*/
 /* CONTACT */
 /*============================*/
-#contact{
+#contact {
     padding-bottom: 20rem;
     background: url(../img/polygon-main.png) no-repeat, url(../img/section-bg-right.png) no-repeat;
     background-position: 25% 70%, right;
     background-size: 5rem, 10rem;
 }
 
-#contact .mail-input-wrapper::after{
+#contact .mail-input-wrapper::after {
     content: "";
     position: absolute;
     top: 5.5rem;
@@ -281,7 +288,8 @@ header {
     background: ;
     background-size: 5rem;
 }
-.mail-input{
+
+.mail-input {
     width: 45rem;
     border-radius: 2rem;
     border: none;
@@ -293,7 +301,7 @@ header {
     box-shadow: 0rem .4rem .8rem 0rem #ddd;
 }
 
-.mail-input::placeholder{
+.mail-input::placeholder {
     font-size: 1.6rem;
     padding-left: 2rem;
     font-weight: bold;
@@ -302,12 +310,13 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.btn-sign-in{
+.btn-sign-in {
     background: linear-gradient(to right, #ff5f6d, #ffc371);
     display: inline-block;
     padding: 1rem 4rem;
 }
-#contact .form-row{
+
+#contact .form-row {
     width: 70%;
     margin: auto;
 }
@@ -315,15 +324,17 @@ header {
 /*============================*/
 /* FOOTER */
 /*============================*/
-footer{
+footer {
     background: linear-gradient(to right, #ff5f6d, #ffc371);
     padding-bottom: 3.5rem;
 }
-footer h4{
+
+footer h4 {
     font-size: 2.4rem;
     margin: 0;
 }
-footer h6{
+
+footer h6 {
     font-size: 1.6rem;
     text-transform: uppercase;
     margin-top: 1rem;
@@ -331,34 +342,38 @@ footer h6{
     color: #fff;
     font-weight: 700;
 }
-footer ul li{
+
+footer ul li {
     text-transform: capitalize;
     list-style-type: none;
     margin-bottom: .5rem;
 }
-footer ul li a{
+
+footer ul li a {
     color: #fff;
     font-weight: 300;
 }
-footer ul li a:hover{
+
+footer ul li a:hover {
     text-decoration: none;
     color: floralwhite;
 }
-footer .support-contact{
+
+footer .support-contact {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
-.social-icon img{
+
+.social-icon img {
     width: 2rem;
     margin-right: 1.5rem;
     transition: 0.5s;
 }
-.social-icon img:hover{
+
+.social-icon img:hover {
     transform: rotate(360deg);
 }
-.social-icon .fb-icon{
+
+.social-icon .fb-icon {
     width: 1.3rem;
 }
-
-
-
