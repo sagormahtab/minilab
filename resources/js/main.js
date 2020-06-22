@@ -14,11 +14,27 @@ $(document).ready(function () {
                 items: 2
             },
             960: {
-                items: 3
+                items: 2
             },
             1200: {
                 items: 3
             }
         }
     });
+    $('body').scrollspy({ target: '#main-nav' });
+   
+    
+    var navPadding = $('#main-nav').css('padding-top');
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      if($(this).scrollTop() > $nav.height()) {
+        $("#main-nav").css('padding-top', '0');
+        $(".lab-text").css('color', 'white');
+      }
+      else{
+        $("#main-nav").css('padding-top', navPadding);
+      }
+    });
+    
 });
