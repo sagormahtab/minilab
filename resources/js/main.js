@@ -34,6 +34,7 @@ $(document).ready(function () {
       }
       else{
         $("#main-nav").css('padding-top', navPadding);
+        $(".lab-text").css('color', '#ff6e6e');
       }
     });
     
